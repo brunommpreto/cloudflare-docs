@@ -32,10 +32,10 @@ For example, given the following `orders` table, you may want to create an index
 ```sql
 CREATE TABLE IF NOT EXISTS orders (
     order_id INTEGER PRIMARY KEY,
-    customer_id STRING NOT NULL, -- for example, a unique ID aba0e360-1e04-41b3-91a0-1f2263e1e0fb
-    order_date STRING NOT NULL,
-    status INTEGER NOT NULL,
-    last_updated_date STRING NOT NULL
+    customer_id TEXT NOT NULL, -- for example, a unique ID aba0e360-1e04-41b3-91a0-1f2263e1e0fb
+    order_date TEXT NOT NULL,
+    status TEXT NOT NULL,
+    last_updated_date TEXT NOT NULL
 )
 ```
 
